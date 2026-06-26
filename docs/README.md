@@ -17,6 +17,7 @@
 | `INTERACTION_SPEC.md` | 页面结构与交互说明 |
 | `DESIGN_SYSTEM.md` | 高端视觉设计系统 |
 | `AI_INTAKE_QUESTIONNAIRE.md` | 专业AI需求采集问卷与权重依据 |
+| `DEPLOYMENT.md` | GitHub Pages 公开部署说明 |
 
 ## 评审顺序
 
