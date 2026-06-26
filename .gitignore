@@ -1,0 +1,8 @@
+dev-server-state.log
+server-*.log
+server-*.err
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/

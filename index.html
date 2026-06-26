@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>居家母婴护理AI智能匹配 - 高端O2O双端平台原型</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="studio-shell">
+      <aside class="product-panel">
+        <div class="brand-card glass-card">
+          <div class="brand-orb">M</div>
+          <div>
+            <span>MotherCare AI</span>
+            <h1>居家母婴护理AI智能匹配</h1>
+          </div>
+        </div>
+
+        <section class="glass-card hero-copy">
+          <p class="eyebrow">Premium O2O Platform</p>
+          <h2>专业医疗信任感，与家庭护理温度并存</h2>
+          <p>
+            面向孕产妇家庭与持证护士的双端平台，围绕“AI需求采集、智能匹配、服务监管、质量回传”构建闭环履约体验。
+          </p>
+        </section>
+
+        <section class="glass-card insight-card">
+          <div class="section-head">
+            <span>平台能力</span>
+            <b>O2O闭环</b>
+          </div>
+          <div class="capability-grid">
+            <div>
+              <i class="icon medical"></i>
+              <b>医护级准入</b>
+              <span>持证护士、资质审核、培训认证</span>
+            </div>
+            <div>
+              <i class="icon ai"></i>
+              <b>AI动态匹配</b>
+              <span>匹配、预测、成长三层体系</span>
+            </div>
+            <div>
+              <i class="icon shield"></i>
+              <b>履约风控</b>
+              <span>合同、托管、异常、投诉留痕</span>
+            </div>
+            <div>
+              <i class="icon home"></i>
+              <b>家庭温度</b>
+              <span>低认知负担的一步一引导</span>
+            </div>
+          </div>
+        </section>
+
+        <nav class="screen-nav glass-card" aria-label="页面导航">
+          <button class="nav-item active" data-screen="home">首页体验</button>
+          <button class="nav-item" data-screen="intake">AI需求采集</button>
+          <button class="nav-item" data-screen="match">智能匹配</button>
+          <button class="nav-item" data-screen="nurse">护士详情</button>
+          <button class="nav-item" data-screen="order">签约支付</button>
+          <button class="nav-item" data-screen="service">服务监管</button>
+          <button class="nav-item" data-screen="nurseWork">护士端</button>
+          <button class="nav-item" data-screen="admin">平台后台</button>
+        </nav>
+      </aside>
+
+      <section class="phone-stage">
+        <div class="device-glow"></div>
+        <div class="phone-frame">
+          <div class="ios-status">
+            <span>9:41</span>
+            <div class="dynamic-island"></div>
+            <span>5G 100%</span>
+          </div>
+
+          <div class="phone-screen">
+            <section class="screen-view active" id="screen-home">
+              <header class="app-header">
+                <div>
+                  <p>兰州本地 · 医护级居家照护</p>
+                  <h2>AI为你匹配更合适的母婴护理护士</h2>
+                </div>
+                <button class="avatar-btn">孕</button>
+              </header>
+
+              <article class="premium-hero">
+                <div class="hero-illustration">
+                  <div class="mother-shape"></div>
+                  <div class="baby-shape"></div>
+                  <div class="pulse-ring"></div>
+                </div>
+                <div>
+                  <span class="soft-pill">AI Care Concierge</span>
+                  <h1>从需求评估到服务监管，全程更安心</h1>
+                  <p>平台闭环、持证护士、资金托管与异常响应，让居家护理不再靠运气。</p>
+                </div>
+              </article>
+
+              <div class="quick-actions">
+                <button class="quick-action primary" data-go="intake">
+                  <i class="icon ai"></i>
+                  <b>开始AI匹配</b>
+                  <span>约3分钟</span>
+                </button>
+                <button class="quick-action" data-go="service">
+                  <i class="icon shield"></i>
+                  <b>查看保障</b>
+                  <span>闭环监管</span>
+                </button>
+              </div>
+
+              <section class="trust-strip">
+                <div><b>62</b><span>本地认证护士</span></div>
+                <div><b>24h</b><span>异常响应</span></div>
+                <div><b>96%</b><span>试点满意度</span></div>
+              </section>
+
+              <section class="journey-card">
+                <div class="section-head">
+                  <span>Service Journey</span>
+                  <b>闭环服务路径</b>
+                </div>
+                <div class="journey-line">
+                  <p><i></i>需求采集</p>
+                  <p><i></i>AI匹配</p>
+                  <p><i></i>签约托管</p>
+                  <p><i></i>服务监管</p>
+                </div>
+              </section>
+
+              <article class="compliance-card">
+                <i class="icon medical"></i>
+                <div>
+                  <b>专业底线</b>
+                  <p>AI只预警、不诊断；最终照护判断与操作由持证护士负责。</p>
+                </div>
+              </article>
+            </section>
+
+            <section class="screen-view" id="screen-intake">
+              <header class="page-top">
+                <button class="circle-back" data-go="home">‹</button>
+                <div>
+                  <p>AI需求采集</p>
+                  <h2>像和专业顾问沟通一样填写</h2>
+                </div>
+              </header>
+
+              <section class="assistant-card">
+                <div class="assistant-avatar">
+                  <i class="icon ai"></i>
+                </div>
+                <div>
+                  <b>智能护理顾问</b>
+                  <p>我会基于产后恢复、新生儿风险、喂养、睡眠安全、家庭环境和服务偏好，计算护士推荐权重。</p>
+                </div>
+              </section>
+
+              <div class="progress-card">
+                <div>
+                  <span>采集完成度</span>
+                  <b id="completionText">3/3</b>
+                </div>
+                <div class="progress-track"><em id="progressBar"></em></div>
+              </div>
+
+              <div class="clinical-note">
+                <b>专业采集说明</b>
+                <p>以下信息仅用于平台内部匹配、服务监管和风险预警，不替代医生诊断。出现红旗症状需及时就医。</p>
+              </div>
+
+              <div class="intake-stack">
+                <article class="question-card" data-group="stage">
+                  <div class="question-title">
+                    <i class="icon medical"></i>
+                    <div>
+                      <span>01 · Service stage</span>
+                      <h3>当前护理阶段</h3>
+                    </div>
+                  </div>
+                  <button class="choice" data-value="prenatal">待产准备<span>需要产前照护规划</span></button>
+                  <button class="choice selected" data-value="day0to7">产后0-7天<span>重点观察恢复与喂养</span></button>
+                  <button class="choice" data-value="day8to42">产后8-42天<span>恢复、喂养、作息建立</span></button>
+                  <button class="choice" data-value="after42">42天后康复<span>产康与育儿指导</span></button>
+                </article>
+
+                <article class="question-card" data-group="delivery">
+                  <div class="question-title">
+                    <i class="icon medical"></i>
+                    <div>
+                      <span>02 · Delivery & recovery</span>
+                      <h3>分娩方式与产后恢复</h3>
+                    </div>
+                  </div>
+                  <button class="choice" data-value="vaginal">顺产恢复<span>会阴护理与体力恢复</span></button>
+                  <button class="choice" data-value="tear">侧切/撕裂伤口<span>会阴伤口护理权重↑</span></button>
+                  <button class="choice selected" data-value="cesarean">剖宫产恢复<span>切口观察权重↑</span></button>
+                  <button class="choice" data-value="bleedingBp">出血/血压重点观察<span>异常识别权重↑</span></button>
+                </article>
+
+                <article class="question-card" data-group="motherRisk" data-type="multi">
+                  <div class="question-title">
+                    <i class="icon medical"></i>
+                    <div>
+                      <span>03 · Maternal risk</span>
+                      <h3>孕产妇健康风险</h3>
+                    </div>
+                  </div>
+                  <button class="choice selected" data-value="hypertension">妊娠高血压/血压波动<span>血压观察经验↑</span></button>
+                  <button class="choice" data-value="diabetes">妊娠糖尿病/血糖管理<span>饮食与指标记录↑</span></button>
+                  <button class="choice" data-value="anemia">贫血/明显乏力<span>恢复支持权重↑</span></button>
+                  <button class="choice" data-value="feverWound">发热、恶露异味或伤口异常<span>需风险预警</span></button>
+                  <button class="choice selected" data-value="mood">焦虑、失眠或情绪低落<span>心理支持权重↑</span></button>
+                </article>
+
+                <article class="question-card" data-group="babyStatus">
+                  <div class="question-title">
+                    <i class="icon baby"></i>
+                    <div>
+                      <span>04 · Newborn profile</span>
+                      <h3>新生儿基本情况</h3>
+                    </div>
+                  </div>
+                  <button class="choice" data-value="fullTerm">足月儿<span>常规新生儿护理</span></button>
+                  <button class="choice selected" data-value="premature">早产儿<span>早产儿护理权重↑</span></button>
+                  <button class="choice" data-value="lowWeight">低体重儿<span>低体重喂养权重↑</span></button>
+                  <button class="choice" data-value="twins">双胎/多胎<span>统筹能力权重↑</span></button>
+                  <button class="choice" data-value="nicu">NICU出院后照护<span>高风险经验权重↑</span></button>
+                </article>
+
+                <article class="question-card" data-group="babyObserve" data-type="multi">
+                  <div class="question-title">
+                    <i class="icon baby"></i>
+                    <div>
+                      <span>05 · Newborn observation</span>
+                      <h3>新生儿观察重点</h3>
+                    </div>
+                  </div>
+                  <button class="choice selected" data-value="jaundice">黄疸观察/复查提醒<span>黄疸经验权重↑</span></button>
+                  <button class="choice selected" data-value="feedingLow">吃奶少、体重增长担心<span>喂养评估权重↑</span></button>
+                  <button class="choice" data-value="temperature">体温偏高/偏低担心<span>指标记录权重↑</span></button>
+                  <button class="choice" data-value="breathing">呼吸快或胸凹担心<span>红旗预警</span></button>
+                  <button class="choice" data-value="umbilical">脐部护理/皮肤护理<span>基础护理细致度↑</span></button>
+                </article>
+
+                <article class="question-card" data-group="feeding">
+                  <div class="question-title">
+                    <i class="icon baby"></i>
+                    <div>
+                      <span>06 · Feeding plan</span>
+                      <h3>喂养方式与困难</h3>
+                    </div>
+                  </div>
+                  <button class="choice selected" data-value="breast">计划纯母乳<span>母乳指导权重↑</span></button>
+                  <button class="choice" data-value="mixed">混合喂养<span>奶量记录能力↑</span></button>
+                  <button class="choice" data-value="formula">配方奶喂养<span>冲调与消毒指导↑</span></button>
+                  <button class="choice" data-value="latchPain">含接困难/乳房胀痛<span>哺乳支持权重↑</span></button>
+                </article>
+
+                <article class="question-card" data-group="sleepSafety" data-type="multi">
+                  <div class="question-title">
+                    <i class="icon shield"></i>
+                    <div>
+                      <span>07 · Sleep & safety</span>
+                      <h3>睡眠与居家安全</h3>
+                    </div>
+                  </div>
+                  <button class="choice selected" data-value="separateBed">有婴儿床/同房不同床<span>安全睡眠基础好</span></button>
+                  <button class="choice" data-value="softBedding">软枕、被褥或床围较多<span>安全睡眠指导↑</span></button>
+                  <button class="choice" data-value="smoke">家中有人吸烟<span>环境风险提示</span></button>
+                  <button class="choice" data-value="pet">家中有宠物<span>清洁与隔离建议</span></button>
+                </article>
+
+                <article class="question-card" data-group="homeEnv">
+                  <div class="question-title">
+                    <i class="icon home"></i>
+                    <div>
+                      <span>08 · Home environment</span>
+                      <h3>家庭环境与支持</h3>
+                    </div>
+                  </div>
+                  <button class="choice selected" data-value="chengguan">城关区 · 电梯房<span>距离响应优先</span></button>
+                  <button class="choice" data-value="stairs">无电梯/上下楼不便<span>体力与通勤评估</span></button>
+                  <button class="choice" data-value="elderHelp">老人参与照护<span>沟通协调权重↑</span></button>
+                  <button class="choice" data-value="alone">夜间主要一人照护<span>夜间支持权重↑</span></button>
+                </article>
+
+                <article class="question-card" data-group="serviceMode">
+                  <div class="question-title">
+                    <i class="icon shield"></i>
+                    <div>
+                      <span>09 · Service intensity</span>
+                      <h3>服务强度与时间</h3>
+                    </div>
+                  </div>
+                  <button class="choice" data-value="day8h">白班8小时<span>日间护理</span></button>
+                  <button class="choice selected" data-value="night">夜间照护/夜醒支持<span>夜班稳定性权重↑</span></button>
+                  <button class="choice" data-value="fullDay">24小时住家照护<span>连续履约能力↑</span></button>
+                  <button class="choice" data-value="consult">短期上门指导<span>专家指导型</span></button>
+                </article>
+
+                <article class="question-card" data-group="nursePreference" data-type="multi">
+                  <div class="question-title">
+                    <i class="icon ai"></i>
+                    <div>
+                      <span>10 · Nurse preference</span>
+                      <h3>护士偏好与合规确认</h3>
+                    </div>
+                  </div>
+                  <button class="choice selected" data-value="localSchool">本地护士学校/院校背景<span>本地资源优先</span></button>
+                  <button class="choice selected" data-value="pediatric">早产儿/低体重儿专长<span>专业方向优先</span></button>
+                  <button class="choice" data-value="hospital">三甲产科或妇幼经验<span>专业履历优先</span></button>
+                  <button class="choice selected" data-value="closedLoop">接受平台合同、托管与全程闭环<span>防跳单与留痕</span></button>
+                </article>
+              </div>
+
+              <div class="floating-action">
+                <button class="primary-btn" id="startMatchBtn">生成AI匹配方案</button>
+              </div>
+            </section>
+
+            <section class="screen-view" id="screen-match">
+              <header class="page-top">
+                <button class="circle-back" data-go="intake">‹</button>
+                <div>
+                  <p>智能匹配结果</p>
+                  <h2>推荐护士已按动态权重排序</h2>
+                </div>
+              </header>
+
+              <article class="ai-cockpit">
+                <div class="score-orbit">
+                  <div><b>96</b><span>Top Match</span></div>
+                </div>
+                <div class="cockpit-copy">
+                  <span>AI Matching Engine</span>
+                  <h3>匹配 + 预测 + 成长</h3>
+                  <p>已提高“早产儿护理、剖宫产恢复、夜间稳定性、本地距离”权重。</p>
+                </div>
+              </article>
+
+              <div class="engine-steps">
+                <div><b>匹配层</b><span>多维标签</span></div>
+                <div><b>预测层</b><span>满意度预测</span></div>
+                <div><b>成长层</b><span>质量回传</span></div>
+              </div>
+
+              <div class="compliance-note">
+                AI只做风险预警与匹配辅助，不进行医疗诊断；最终护理操作由持证护士负责。
+              </div>
+
+              <div class="nurse-list" id="nurseList"></div>
+            </section>
+
+            <section class="screen-view" id="screen-nurse">
+              <header class="page-top">
+                <button class="circle-back" data-go="match">‹</button>
+                <div>
+                  <p>护士详情</p>
+                  <h2>专业资质与匹配解释</h2>
+                </div>
+              </header>
+
+              <article class="nurse-profile-hero">
+                <div class="profile-photo">张</div>
+                <div>
+                  <span class="soft-pill">本地护士学校毕业</span>
+                  <h3>张雨婷 护士</h3>
+                  <p>三甲产科6年 · 早产儿护理 / 剖宫产恢复</p>
+                </div>
+              </article>
+
+              <section class="trust-strip">
+                <div><b>96</b><span>匹配分</span></div>
+                <div><b>94%</b><span>预计满意度</span></div>
+                <div><b>4.9</b><span>历史评分</span></div>
+              </section>
+
+              <article class="detail-card">
+                <div class="section-head">
+                  <span>Dynamic Tags</span>
+                  <b>动态权重标签</b>
+                </div>
+                <div class="tag-wrap">
+                  <span>擅长早产儿护理</span>
+                  <span>低体重儿喂养</span>
+                  <span>急救实操</span>
+                  <span>夜间稳定</span>
+                </div>
+              </article>
+
+              <article class="detail-card">
+                <div class="section-head">
+                  <span>Explainable AI</span>
+                  <b>推荐解释</b>
+                </div>
+                <p>当前新生儿状态触发“早产儿/低体重儿”动态权重；该护士过往同类家庭服务满意度高，且服务区域接近，可降低迟到和临时换人风险。</p>
+              </article>
+
+              <div class="floating-action two">
+                <button class="secondary-btn" data-go="match">返回列表</button>
+                <button class="primary-btn" data-go="order">预约沟通</button>
+              </div>
+            </section>
+
+            <section class="screen-view" id="screen-order">
+              <header class="page-top">
+                <button class="circle-back" data-go="nurse">‹</button>
+                <div>
+                  <p>签约支付</p>
+                  <h2>线上合同与资金托管</h2>
+                </div>
+              </header>
+
+              <article class="order-ticket">
+                <div class="section-head">
+                  <span>Care Plan</span>
+                  <b>26天居家母婴护理</b>
+                </div>
+                <p>每日8小时 · 城关区 · 张雨婷护士</p>
+                <div class="price-row"><span>服务费</span><b>¥ 9,800</b></div>
+                <div class="price-row"><span>平台技术服务费</span><b>¥ 588</b></div>
+                <div class="price-row"><span>保险保障</span><b>已包含</b></div>
+              </article>
+
+              <article class="detail-card">
+                <div class="section-head">
+                  <span>Risk Control</span>
+                  <b>履约与风控</b>
+                </div>
+                <p>电子合同、平台资金托管、分期结算、防私下交易条款、异常处理与投诉仲裁机制全量纳入履约流程。</p>
+              </article>
+
+              <label class="agree-card">
+                <input type="checkbox" checked />
+                <span>已阅读并同意服务协议、隐私授权与AI辅助匹配说明</span>
+              </label>
+
+              <div class="floating-action">
+                <button class="primary-btn" data-go="service">签署并支付托管金</button>
+              </div>
+            </section>
+
+            <section class="screen-view" id="screen-service">
+              <header class="page-top">
+                <button class="circle-back" data-go="order">‹</button>
+                <div>
+                  <p>服务监管</p>
+                  <h2>服务过程可见、异常可追溯</h2>
+                </div>
+              </header>
+
+              <article class="service-status">
+                <div>
+                  <span>Today</span>
+                  <h3>今日护理进度</h3>
+                  <p>护理日志、体温记录、喂养记录与满意度确认。</p>
+                </div>
+                <b>进行中</b>
+              </article>
+
+              <section class="care-timeline">
+                <p><i></i><b>09:00</b> 护士上门签到，位置与合同地址一致</p>
+                <p><i></i><b>10:30</b> 新生儿喂养记录已上传</p>
+                <p><i></i><b>14:00</b> 产妇恢复观察待确认</p>
+              </section>
+
+              <section class="trust-strip">
+                <div><b>36.8</b><span>体温</span></div>
+                <div><b>正常</b><span>黄疸</span></div>
+                <div><b>7次</b><span>喂养</span></div>
+              </section>
+
+              <div class="floating-action two">
+                <button class="secondary-btn">异常反馈</button>
+                <button class="primary-btn">确认今日服务</button>
+              </div>
+            </section>
+
+            <section class="screen-view" id="screen-nurseWork">
+              <header class="page-top">
+                <button class="circle-back" data-go="home">‹</button>
+                <div>
+                  <p>护士端</p>
+                  <h2>专业护士的接单工作台</h2>
+                </div>
+              </header>
+
+              <article class="nurse-profile-hero">
+                <div class="profile-photo">张</div>
+                <div>
+                  <span class="soft-pill">已认证 · 可接单</span>
+                  <h3>张雨婷</h3>
+                  <p>资料完整度92% · 平台培训通过</p>
+                </div>
+              </article>
+
+              <section class="trust-strip">
+                <div><b>3</b><span>待处理</span></div>
+                <div><b>1</b><span>服务中</span></div>
+                <div><b>¥8200</b><span>本月收入</span></div>
+              </section>
+
+              <article class="detail-card highlighted">
+                <div class="section-head">
+                  <span>New Invitation</span>
+                  <b>新匹配邀约</b>
+                </div>
+                <p>剖宫产恢复 + 早产儿照护，距离4.2km，预计26天。请在2小时内响应。</p>
+                <button class="inline-btn">查看并响应</button>
+              </article>
+            </section>
+
+            <section class="screen-view" id="screen-admin">
+              <header class="page-top">
+                <button class="circle-back" data-go="home">‹</button>
+                <div>
+                  <p>平台后台</p>
+                  <h2>运营与风控监管看板</h2>
+                </div>
+              </header>
+
+              <section class="admin-dashboard">
+                <div><b>18</b><span>服务中订单</span></div>
+                <div><b>3</b><span>异常待办</span></div>
+                <div><b>96%</b><span>满意度</span></div>
+                <div><b>2</b><span>疑似跳单</span></div>
+              </section>
+
+              <article class="detail-card danger">
+                <div class="section-head">
+                  <span>Risk Tickets</span>
+                  <b>异常工单</b>
+                </div>
+                <p>黄疸指标连续升高，等待客服复核；疑似线下交易沟通，进入风控审核。</p>
+              </article>
+
+              <article class="detail-card">
+                <div class="section-head">
+                  <span>Data Flywheel</span>
+                  <b>质量回传</b>
+                </div>
+                <p>护理日志、评价、异常、回访结果进入本地化知识图谱，用于优化匹配权重。</p>
+              </article>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <aside class="design-panel">
+        <section class="glass-card">
+          <p class="eyebrow">Visual Direction</p>
+          <h2>Dribbble质感、Behance展示、Figma系统化</h2>
+          <p>柔和医疗蓝、暖白、桃色与玻璃拟态层次，形成专业但不冰冷的母婴护理体验。</p>
+        </section>
+
+        <section class="glass-card palette-card">
+          <div class="section-head">
+            <span>Palette</span>
+            <b>马卡龙色系</b>
+          </div>
+          <div class="palette">
+            <i style="--c:#DDF1F5"></i>
+            <i style="--c:#FFF9F4"></i>
+            <i style="--c:#FAD8CF"></i>
+            <i style="--c:#B8DFDC"></i>
+            <i style="--c:#27445C"></i>
+          </div>
+        </section>
+
+        <section class="glass-card ux-notes">
+          <div class="section-head">
+            <span>UX Principles</span>
+            <b>交互原则</b>
+          </div>
+          <p><b>一步一引导：</b>对新手孕妈降低医学表单压力。</p>
+          <p><b>可解释AI：</b>推荐结果必须说明动态权重与原因。</p>
+          <p><b>双端闭环：</b>用户端、护士端、平台后台信息一致。</p>
+          <p><b>合规显性：</b>AI只预警不诊断，避免医疗越界。</p>
+        </section>
+      </aside>
+    </main>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>

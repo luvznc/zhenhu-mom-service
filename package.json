@@ -1,0 +1,12 @@
+{
+  "name": "homecare-ai-miniapp-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "居家母婴护理AI智能匹配小程序高保真原型",
+  "scripts": {
+    "dev": "python tools/dev_server.py --port 5188",
+    "start": "python tools/dev_server.py --port 5188"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

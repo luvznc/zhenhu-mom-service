@@ -1,0 +1,34 @@
+{
+  "requirements": {
+    "mother": "剖宫产恢复",
+    "baby": "早产儿",
+    "family": "城关区电梯房",
+    "serviceDays": 26,
+    "budget": "9800-12800",
+    "riskTags": ["剖宫产恢复", "早产儿护理", "夜间稳定性"]
+  },
+  "nurses": [
+    {
+      "id": 1,
+      "name": "张雨婷 护士",
+      "localAdvantage": "兰州本地护士学校毕业",
+      "direction": "早产儿护理 / 剖宫产恢复",
+      "years": 6,
+      "district": "城关区",
+      "matchScore": 96,
+      "predictedSatisfaction": "94%",
+      "dynamicTags": ["擅长早产儿护理", "急救实操", "夜间稳定", "低体重儿喂养"]
+    },
+    {
+      "id": 2,
+      "name": "李佳宁 护士",
+      "localAdvantage": "兰州职业院校母婴护理方向",
+      "direction": "母乳喂养指导 / 黄疸观察",
+      "years": 5,
+      "district": "七里河区",
+      "matchScore": 91,
+      "predictedSatisfaction": "90%",
+      "dynamicTags": ["黄疸观察", "母乳指导", "家庭沟通", "标准化日志"]
+    }
+  ]
+}
