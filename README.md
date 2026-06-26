@@ -84,7 +84,7 @@ homecare-ai-miniapp-prototype/
 发布方式：
 
 ```bash
-git remote add origin https://github.com/<你的账号>/homecare-ai-miniapp-prototype.git
+git remote add origin https://github.com/luvznc/zhenhu-mom-service.git
 git push -u origin main
 ```
 
@@ -97,5 +97,5 @@ Settings -> Pages -> Build and deployment -> Deploy from a branch -> main / root
 公开访问地址通常是：
 
 ```text
-https://<你的账号>.github.io/homecare-ai-miniapp-prototype/
+https://luvznc.github.io/zhenhu-mom-service/
 ```

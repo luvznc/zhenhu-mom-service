@@ -12,22 +12,22 @@
 
 ## 方式一：提供空仓库地址后推送
 
-在 GitHub 新建一个公开仓库，例如：
+目标 GitHub 仓库：
 
 ```text
-homecare-ai-miniapp-prototype
+https://github.com/luvznc/zhenhu-mom-service.git
 ```
 
-然后把 HTTPS 地址提供给开发者：
+预计公开展示地址：
 
 ```text
-https://github.com/<你的账号>/homecare-ai-miniapp-prototype.git
+https://luvznc.github.io/zhenhu-mom-service/
 ```
 
 推送命令：
 
 ```powershell
-.\tools\publish_github_pages.ps1 -RepositoryUrl "https://github.com/<你的账号>/homecare-ai-miniapp-prototype.git"
+.\tools\publish_github_pages.ps1 -RepositoryUrl "https://github.com/luvznc/zhenhu-mom-service.git"
 ```
 
 ## 方式二：提供 GitHub Personal Access Token
@@ -47,5 +47,15 @@ Folder: / root
 保存后，公开地址通常是：
 
 ```text
-https://<你的账号>.github.io/homecare-ai-miniapp-prototype/
+https://luvznc.github.io/zhenhu-mom-service/
 ```
+
+## 自动部署工作流
+
+项目已包含 GitHub Actions 工作流：
+
+```text
+.github/workflows/pages.yml
+```
+
+推送到 `main` 后，仓库如果已允许 GitHub Pages 使用 GitHub Actions 发布，将自动部署。
