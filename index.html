@@ -104,15 +104,15 @@
                   <b>开始AI匹配</b>
                   <span>约3分钟</span>
                 </button>
-                <button class="quick-action" data-go="service">
+                <button class="quick-action" data-go="assurance">
                   <i class="icon shield"></i>
                   <b>查看保障</b>
                   <span>闭环监管</span>
                 </button>
               </div>
 
-              <section class="trust-strip">
-                <div><b>62</b><span>本地认证护士</span></div>
+              <section class="trust-strip home-trust-strip">
+                <button class="trust-stat" data-go="nurseDirectory"><b>62</b><span>本地认证护士</span><small>查看护士库 ›</small></button>
                 <div><b>24h</b><span>异常响应</span></div>
                 <div><b>96%</b><span>试点满意度</span></div>
               </section>
@@ -137,6 +137,111 @@
                   <p>AI只预警、不诊断；最终照护判断与操作由持证护士负责。</p>
                 </div>
               </article>
+            </section>
+
+            <section class="screen-view" id="screen-assurance">
+              <header class="page-top">
+                <button class="circle-back" data-go="home" aria-label="返回首页">‹</button>
+                <div>
+                  <p>平台保障中心</p>
+                  <h2>每一步有标准，每一次服务可追溯</h2>
+                </div>
+              </header>
+
+              <article class="assurance-hero">
+                <div class="assurance-seal"><b>7</b><span>项核心保障</span></div>
+                <div>
+                  <span>Closed-loop Protection</span>
+                  <h3>服务前审核、服务中留痕、异常有响应、服务后可追责</h3>
+                  <p>保障设计参考国家卫生健康委“互联网+护理服务”关于资质、评估、定位留痕、风险预案与保险配置的要求。</p>
+                </div>
+              </article>
+
+              <section class="assurance-stats">
+                <div><b>双重</b><span>身份与执业核验</span></div>
+                <div><b>全程</b><span>关键节点留痕</span></div>
+                <div><b>24h</b><span>平台异常受理</span></div>
+              </section>
+
+              <article class="protection-card">
+                <div class="protection-title"><i>01</i><div><span>服务前</span><h3>准入、评估与知情确认</h3></div></div>
+                <ul class="protection-list">
+                  <li><b>护士准入核验</b><span>核验实名身份、护士执业证书注册状态、执业范围、专业经历与平台岗前培训记录。</span></li>
+                  <li><b>家庭风险评估</b><span>结合孕产妇、新生儿、家庭环境及既往病历资料，判断是否适合居家护理；不适宜项目不派单。</span></li>
+                  <li><b>服务方案透明</b><span>服务项目、频次、边界、价格、取消规则、双方责任及隐私授权在签约前逐项确认。</span></li>
+                </ul>
+              </article>
+
+              <article class="protection-card">
+                <div class="protection-title"><i>02</i><div><span>服务中</span><h3>实名履约与护理记录</h3></div></div>
+                <ul class="protection-list">
+                  <li><b>到家身份复核</b><span>护士端实名签到，核对服务对象、约定地址与订单信息，防止代服务和错单。</span></li>
+                  <li><b>关键过程留痕</b><span>记录到离时间、服务项目、观察指标、用品处置和家庭确认；高风险节点可触发复核。</span></li>
+                  <li><b>定位与安全机制</b><span>在授权范围内记录履约位置，支持延时预警、一键求助和平台人工介入。</span></li>
+                </ul>
+              </article>
+
+              <article class="response-card">
+                <div class="section-head"><span>Response Matrix</span><b>三级异常响应</b></div>
+                <div class="response-level urgent"><i>1</i><div><b>紧急情况：立即就医</b><p>如呼吸困难、抽搐、意识异常、持续大量出血等，优先拨打120或前往急诊，平台同步留痕。平台与AI不替代急救。</p></div></div>
+                <div class="response-level"><i>2</i><div><b>护理风险：护士复核</b><p>指标异常、喂养明显减少、伤口异常等进入护士复核与转诊建议流程，不在线作诊断。</p></div></div>
+                <div class="response-level"><i>3</i><div><b>履约争议：平台受理</b><p>迟到、缺项、服务态度或费用争议生成工单，关联订单、日志和双方确认记录。</p></div></div>
+              </article>
+
+              <article class="protection-card">
+                <div class="protection-title"><i>03</i><div><span>权益与数据</span><h3>资金、保险、隐私与售后</h3></div></div>
+                <ul class="protection-list">
+                  <li><b>资金按节点结算</b><span>订单款项按合同约定托管及分阶段结算；变更、退款和补偿以实际订单协议为准。</span></li>
+                  <li><b>保险信息可核验</b><span>展示订单适用的责任险及意外险主体、保障期限和责任范围；具体额度以电子保单为准。</span></li>
+                  <li><b>敏感信息最小必要</b><span>医疗健康、行踪轨迹及新生儿信息按单独授权使用，支持查询授权范围和申请撤回。</span></li>
+                  <li><b>服务后质量闭环</b><span>家庭确认、评价、回访、投诉和异常结论进入护士质量档案，用于后续派单与复训。</span></li>
+                </ul>
+              </article>
+
+              <article class="boundary-card">
+                <b>专业边界必须清晰</b>
+                <p>AI仅用于信息整理、匹配辅助和风险提示，不进行疾病诊断、不开具处方、不替代医生。所有护理操作须由符合资质且胜任该项目的护士执行。</p>
+                <small>本页为产品原型的保障机制说明，实际服务范围、保险责任和处置时效以正式合同、保单及当地监管要求为准。</small>
+              </article>
+            </section>
+
+            <section class="screen-view" id="screen-nurseDirectory">
+              <header class="page-top">
+                <button class="circle-back" data-go="home" aria-label="返回首页">‹</button>
+                <div>
+                  <p>本地认证护士库</p>
+                  <h2>资质可核验，能力有依据</h2>
+                </div>
+              </header>
+
+              <article class="directory-hero">
+                <span>Verified Care Network</span>
+                <h3>兰州本地母婴护理护士资源</h3>
+                <p>按执业资质、临床经历、母婴专项能力、履约质量与可服务区域进行平台分层展示。</p>
+                <div class="directory-summary"><b>62<small>认证护士</small></b><b>18<small>妇幼/产科背景</small></b><b>4.8<small>平均服务评分</small></b></div>
+              </article>
+
+              <article class="verification-card">
+                <div class="section-head"><span>Verification Standard</span><b>平台认证标准</b></div>
+                <div class="verification-grid">
+                  <p><i>✓</i><span><b>实名与执业注册</b>证书状态及注册信息核验</span></p>
+                  <p><i>✓</i><span><b>专业经历复核</b>机构、科室与年限材料核验</span></p>
+                  <p><i>✓</i><span><b>专项能力评估</b>母婴技能、急救与风险识别</span></p>
+                  <p><i>✓</i><span><b>持续质量管理</b>日志、评价、异常与复训联动</span></p>
+                </div>
+              </article>
+
+              <div class="directory-filters" aria-label="护士筛选">
+                <button class="active" data-nurse-filter="all">全部</button>
+                <button data-nurse-filter="premature">早产儿</button>
+                <button data-nurse-filter="lactation">母乳喂养</button>
+                <button data-nurse-filter="recovery">产后恢复</button>
+                <button data-nurse-filter="available">近期可约</button>
+              </div>
+
+              <div class="directory-list" id="nurseDirectoryList"></div>
+
+              <div class="prototype-note">护士姓名、证照尾号与业务数据均为原型演示数据，不代表真实人员或平台现有规模。</div>
             </section>
 
             <section class="screen-view" id="screen-intake">
@@ -356,51 +461,66 @@
 
             <section class="screen-view" id="screen-nurse">
               <header class="page-top">
-                <button class="circle-back" data-go="match">‹</button>
+                <button class="circle-back" id="nurseBackBtn" data-go="match" aria-label="返回上一页">‹</button>
                 <div>
                   <p>护士详情</p>
-                  <h2>专业资质与匹配解释</h2>
+                  <h2>专业资质、服务能力与质量记录</h2>
                 </div>
               </header>
 
-              <article class="nurse-profile-hero">
-                <div class="profile-photo">张</div>
-                <div>
-                  <span class="soft-pill">本地护士学校毕业</span>
-                  <h3>张雨婷 护士</h3>
-                  <p>三甲产科6年 · 早产儿护理 / 剖宫产恢复</p>
+              <article class="nurse-profile-hero" id="nurseProfileHero">
+                <div class="profile-photo" id="profilePhoto">张</div>
+                <div class="profile-copy">
+                  <div class="profile-badges"><span class="verified-badge">✓ 平台已核验</span><span class="soft-pill" id="profileLocal">兰州本地</span></div>
+                  <h3 id="profileName">张雨婷 护士</h3>
+                  <p id="profileSummary">三甲产科6年 · 早产儿护理 / 剖宫产恢复</p>
+                  <small id="profileAvailability">近期可约 · 平均15分钟响应</small>
                 </div>
               </article>
 
-              <section class="trust-strip">
-                <div><b>96</b><span>匹配分</span></div>
-                <div><b>94%</b><span>预计满意度</span></div>
+              <section class="trust-strip" id="profileMetrics">
                 <div><b>4.9</b><span>历史评分</span></div>
+                <div><b>98%</b><span>准时到达</span></div>
+                <div><b>186</b><span>母婴服务单</span></div>
               </section>
 
-              <article class="detail-card">
-                <div class="section-head">
-                  <span>Dynamic Tags</span>
-                  <b>动态权重标签</b>
-                </div>
-                <div class="tag-wrap">
-                  <span>擅长早产儿护理</span>
-                  <span>低体重儿喂养</span>
-                  <span>急救实操</span>
-                  <span>夜间稳定</span>
-                </div>
+              <article class="detail-card credential-card">
+                <div class="section-head"><span>Credential Check</span><b>资质核验</b></div>
+                <div class="credential-rows" id="profileCredentials"></div>
               </article>
 
               <article class="detail-card">
                 <div class="section-head">
-                  <span>Explainable AI</span>
-                  <b>推荐解释</b>
+                  <span>Clinical Strengths</span>
+                  <b>专业方向与专项能力</b>
                 </div>
-                <p>当前新生儿状态触发“早产儿/低体重儿”动态权重；该护士过往同类家庭服务满意度高，且服务区域接近，可降低迟到和临时换人风险。</p>
+                <div class="tag-wrap" id="profileTags"></div>
               </article>
+
+              <article class="detail-card">
+                <div class="section-head"><span>Experience</span><b>临床与居家服务经历</b></div>
+                <div class="experience-timeline" id="profileExperience"></div>
+              </article>
+
+              <article class="detail-card">
+                <div class="section-head"><span>Service Scope</span><b>可提供的服务</b></div>
+                <div class="service-scope" id="profileServices"></div>
+              </article>
+
+              <article class="detail-card quality-card">
+                <div class="section-head"><span>Quality Record</span><b>平台履约质量</b></div>
+                <div class="quality-bars" id="profileQuality"></div>
+              </article>
+
+              <article class="detail-card highlighted" id="profileReasonCard">
+                <div class="section-head"><span>Profile Insight</span><b id="profileReasonTitle">档案说明</b></div>
+                <p id="profileReason">平台展示基于已核验的资质材料与历史履约记录，具体可承接项目仍需结合家庭风险评估和护士当期排班确认。</p>
+              </article>
+
+              <div class="profile-privacy-note">为保护护士隐私，执业证书编号和个人联系方式仅作脱敏展示；签约后通过平台沟通。</div>
 
               <div class="floating-action two">
-                <button class="secondary-btn" data-go="match">返回列表</button>
+                <button class="secondary-btn" id="profileListBtn" data-go="match">返回列表</button>
                 <button class="primary-btn" data-go="order">预约沟通</button>
               </div>
             </section>
