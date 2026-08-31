@@ -4,9 +4,30 @@
     "baby": "早产儿",
     "family": "城关区电梯房",
     "serviceDays": 26,
-    "budget": "9800-12800",
-    "riskTags": ["剖宫产恢复", "早产儿护理", "夜间稳定性"]
+    "serviceIntensity": "每日8小时",
+    "regionCode": "chengguan",
+    "localPreferences": ["localCaregiver", "localMeal", "environmentLog"],
+    "mealService": "withMeals",
+    "iotService": "iotKit",
+    "budget": "12800-15000",
+    "riskTags": ["剖宫产恢复", "早产儿护理", "夜间稳定性", "含餐服务", "IoT记录"]
   },
+  "servicePlans": [
+    {
+      "code": "CARE_ONLY",
+      "name": "专业照护·不含餐",
+      "serviceFee": 9800,
+      "scope": ["母婴专业照护", "每日护理日志", "家庭照护指导"],
+      "exclusions": ["备餐", "其他家庭成员家务"]
+    },
+    {
+      "code": "CARE_WITH_MEALS",
+      "name": "全程照护·含餐",
+      "serviceFee": 12800,
+      "scope": ["母婴专业照护", "产妇三餐两点", "食品安全记录", "厨房服务收尾"],
+      "exclusions": ["食材费用", "其他家庭成员餐食", "未约定的特殊膳食"]
+    }
+  ],
   "nurses": [
     {
       "id": 1,
@@ -15,9 +36,23 @@
       "direction": "早产儿护理 / 剖宫产恢复",
       "years": 6,
       "district": "城关区",
+      "regionalProfile": ["城关区常驻", "普通话/兰州方言", "西北口味适配", "温湿度记录"],
+      "legalCredential": "护士执业证书 · 尾号3287",
+      "platformLevel": "M3",
+      "platformCertificate": "MC-LZ-M3-0268",
+      "certificateExpiresAt": "2027-05-31",
+      "mealCertified": true,
+      "iotCertified": true,
+      "skillScores": {
+        "maternalInfantCare": 93,
+        "nutritionMeals": 88,
+        "housekeeping": 86,
+        "riskEscalation": 92,
+        "communication": 90
+      },
       "matchScore": 96,
       "predictedSatisfaction": "94%",
-      "dynamicTags": ["擅长早产儿护理", "急救实操", "夜间稳定", "低体重儿喂养"]
+      "dynamicTags": ["擅长早产儿护理", "含餐服务认证", "IoT记录认证", "夜间稳定"]
     },
     {
       "id": 2,
@@ -26,9 +61,41 @@
       "direction": "母乳喂养指导 / 黄疸观察",
       "years": 5,
       "district": "七里河区",
+      "regionalProfile": ["七里河区常驻", "普通话沟通", "西北口味适配", "本地食材菜单"],
+      "legalCredential": "护士执业证书 · 尾号6152",
+      "platformLevel": "M2",
+      "platformCertificate": "MC-LZ-M2-0412",
+      "certificateExpiresAt": "2027-05-31",
+      "mealCertified": true,
+      "iotCertified": true,
+      "skillScores": {
+        "maternalInfantCare": 88,
+        "nutritionMeals": 91,
+        "housekeeping": 84,
+        "riskEscalation": 87,
+        "communication": 94
+      },
       "matchScore": 91,
       "predictedSatisfaction": "90%",
-      "dynamicTags": ["黄疸观察", "母乳指导", "家庭沟通", "标准化日志"]
+      "dynamicTags": ["黄疸观察", "母乳指导", "含餐服务认证", "标准化日志"]
     }
+  ],
+  "iotSnapshot": {
+    "syncedAt": "2026-08-30T14:32:00+08:00",
+    "mother": {"heartRate": 78, "spo2": 98, "wristTemperatureDelta": 0.2, "sleepHours": 5.8},
+    "baby": {"temperature": 36.8, "feedings24h": 7, "diapers24h": 6, "weightChange7dGram": 126},
+    "activeAlert": {"level": "YELLOW", "type": "MATERNAL_RESTING_HEART_RATE_TREND", "status": "WAITING_NURSE_REVIEW"}
+  },
+  "serviceRegions": [
+    {"code": "chengguan", "name": "城关区核心服务圈", "caregivers": 24, "defaultRadiusKm": 8, "demoResponseMinutes": 25},
+    {"code": "qilihe", "name": "七里河服务圈", "caregivers": 16, "defaultRadiusKm": 8, "demoResponseMinutes": 32},
+    {"code": "anning", "name": "安宁区服务圈", "caregivers": 12, "defaultRadiusKm": 8, "demoResponseMinutes": 36},
+    {"code": "xigu", "name": "西固区服务圈", "caregivers": 10, "defaultRadiusKm": 8, "demoResponseMinutes": 42}
+  ],
+  "trainingCourses": [
+    {"code": "TRANSITION_BOOTCAMP", "name": "医护人员转型母婴护理师训练营", "demoPrice": 1980},
+    {"code": "POSTPARTUM_MEALS", "name": "产后营养与月子餐实操", "demoPrice": 899},
+    {"code": "HOUSEHOLD_STANDARD", "name": "母婴家庭服务与家政规范", "demoPrice": 599},
+    {"code": "LANZHOU_LOCAL_SERVICE", "name": "兰州本地家庭服务实务", "demoPrice": 399}
   ]
 }
